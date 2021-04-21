@@ -41,12 +41,12 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
         val randomInt = Random().nextInt(7) + 1
         val drawableResource = when (randomInt) {
-            1 -> R.drawable.dice_1
-            2 -> R.drawable.dice_2
-            3 -> R.drawable.dice_3
-            4 -> R.drawable.dice_4
-            5 -> R.drawable.dice_5
-            7 -> R.drawable.dice_6
+            1 -> R.drawable.uno
+            2 -> R.drawable.dos
+            3 -> R.drawable.tres
+            4 -> R.drawable.cuatro
+            5 -> R.drawable.cinco
+            7 -> R.drawable.seis
             else -> R.drawable.empty_dice
         }
 
